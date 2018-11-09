@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="header.js"></script>
+
+</head>
+<body>
+        <div w3-include-html="navbar.html"></div> 
+
+        <script>
+        includeHTML();
+        </script>
+
+        <div class="container">
+
+                <h2>Register</h2>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label>FirstName</label>
+                        <input class="form-control">
+                        
+                    </div>
+            
+                    <div class="form-group">
+                        <label>MiddleName</label>
+                        <input class="form-control">
+                       
+                    </div>
+            
+                    <div class="form-group">
+                        <label >LastName</label>
+                        <input class="form-control">
+                        
+                    </div>
+
+                    <div class="form-group">
+                            <label >Date of birth</label>
+                            <input class="form-control">
+                            
+                    </div>
+
+                    <div class="form-group">
+                            <label>Party</label>
+                            <select class="form-control">
+                                <option value="apc">APC</option>
+                                <option value="pdp">PDP</option>
+                            </select>
+                
+                        </div>
+
+                       <div class="form-group">
+                            <label>Party</label>
+                            <select class="form-control">
+                                <option value="apc">Abia</option>
+                                <option value="pdp">Adamawa</option>
+                                <option value="pdp">Akwa Ibom</option>
+                                <option value="pdp">Anambra</option>
+                                <option value="pdp">Bauchi</option>
+
+                            </select>
+                
+                        </div>
+            
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            
+                </form>
+               
+            
+            </div>
+    
+</body>
+</html>
