@@ -1,0 +1,32 @@
+.online {
+    width: 400px;
+    position: relative;
+    left:550px;
+    bottom: 350px;
+}
+
+.image{
+    
+    height: 400px;
+    width: 550px;
+    opacity: 20px;
+
+}
+
+.mainbody { 
+    margin: 10px;
+    height: 600px;
+   
+    /* background-image: url(../img/nature.jpg); */
+
+}
+
+.details {
+    width: 200px;
+    height: 400px;
+    position: relative;
+    left: 1050px;
+    bottom: 700px;
+    
+}
+

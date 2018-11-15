@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="header.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
 
 </head>
+
 <body>
-        <div w3-include-html="navbar.html"></div> 
 
-        <script>
-        includeHTML();
-        </script>
+    <div id="nav-placeholder">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 10px">
+            <a class="navbar-brand" href="./index.html">INEC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="./index.html" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
 
-   <div class="form-group">
-        <label>Party</label>
-        <select class="form-control">
-            <option value="apc">Buhari</option>
-            <option value="pdp">Atiku</option>
-        </select>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container">
+
+        <div class="form-group">
+            <label>Candidates</label>
+            <select id="selectId" class="form-control">
+                <option value="Buhari">Buhari</option>
+                <option value="Atiku">Atiku</option>
+            </select>
+
+        </div>
+
+        <button type="submit" id="vote" class="btn btn-primary">Vote</button>
+
+        </form>
+
 
     </div>
 
-<button type="submit" class="btn btn-primary">Submit</button>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
 
-</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js">
+</script>
 
+    <script src="./voting/js/bootstrap.min.js"></script>
 
-</div>
+    <script src="./voting/js/server.js"></script>
 </body>
+
 </html>

@@ -1,9 +1,141 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-21",
+      "username": "kazeem08",
+      "password": "undefined",
+      "isvoted": "true",
+      "id": 1
+    },
+    {
+      "firstname": "stanley",
+      "middlename": "stanley",
+      "lastname": "stanley",
+      "dateOfBirth": "2018-11-10",
+      "username": "stanley99",
+      "password": "undefined",
+      "isvoted": "true",
+      "id": 2
+    },
+    {
+      "firstname": "kazeem99",
+      "middlename": "lanre",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-13",
+      "username": "kazeem123",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 3
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "jimoh",
+      "dateOfBirth": "2017-11-30",
+      "username": "yyyyyyyy",
+      "password": "yyyyyyyy",
+      "isvoted": "true",
+      "id": 4
+    },
+    {
+      "firstname": "lanre",
+      "middlename": "ola",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-16",
+      "username": "kazeem0825",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 5
+    },
+    {
+      "firstname": "ola",
+      "middlename": "ola",
+      "lastname": "ola",
+      "dateOfBirth": "2018-11-10",
+      "username": "ola09",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 6
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-12-01",
+      "username": "hello",
+      "password": "world",
+      "isvoted": "true",
+      "id": 7
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "ola",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-25",
+      "username": "jimoh008",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 8
+    },
+    {
+      "firstname": "hgjjjdj",
+      "middlename": "dbbbbd",
+      "lastname": "bbbbb",
+      "dateOfBirth": "2018-11-10",
+      "username": "hello23",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 9
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "password": "admin1",
+      "adminNo": "88998"
+    }
+  ],
+  "votes": [
+    {
+      "firstname": "Buhari",
+      "middlename": "Buhari",
+      "lastname": "Muhammadu",
+      "dateOfBirth": "13/11/1968",
+      "party": "APC",
+      "state": "Katsina",
+      "votecount": "1",
+      "id": 1
+    },
+    {
+      "firstname": "Atiku",
+      "middlename": "Atiku",
+      "lastname": "Abubakar",
+      "dateOfBirth": "13/11/1961",
+      "party": "PDP",
+      "state": "Adamawa",
+      "votecount": "1",
+      "id": 2
+    },
+    {
+      "firstname": "solomon",
+      "middlename": "dare",
+      "lastname": "lawal",
+      "dateOfBirth": "13/11/2009",
+      "party": "PDP",
+      "state": "lagos",
+      "votecount": "0",
+      "id": 3
+    }
+  ],
+  "voters": [
+    {
+      "id": 1,
+      "username": "kazeem08",
+      "candidate": "Buhari"
+    }
+  ]
+}
