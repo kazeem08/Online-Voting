@@ -137,8 +137,10 @@ $("document").ready(function () {
                             data: user,
                             success: function () {
                                 alert('welcome');
-                                window.location.replace('./Login.html');
-                            },
+                                window.location.replace('./votingpage.html');
+                                
+                                
+                            }
                         });
 
                     }
@@ -148,7 +150,7 @@ $("document").ready(function () {
 
             }
 
-        })
+        });
 
     });
 
@@ -288,7 +290,7 @@ $("document").ready(function () {
 
                                 success: function(){
                                     //alert("set to true");
-                                    window.location.replace('./index.html');
+                                     window.location.replace('./index.html');
                                 },
                                 error: function(value){
                                     alert('error');
@@ -341,6 +343,13 @@ $("document").ready(function () {
                 for (let i of data) {
                     if (i.username == aduser && i.password == adpass && i.adminNo == adnumber) {
                         j = 0;
+
+                        let user = i.username;
+                        let pass = i.password;
+                        localStorage.setItem("username", user);
+                        localStorage.setItem("password", pass);
+
+                        console.log(user);
                         window.location.replace('./Adminpage.html');
                     }
 
@@ -432,7 +441,12 @@ $("document").ready(function () {
 
     });
 
+    $("#logout").click(function(){
+        
+        localStorage.clear();
+        window.location.replace('./index.html');
 
+    });
 
 });
 

@@ -14,19 +14,15 @@
 }
 
 .mainbody { 
-    margin: 10px;
+    
     height: 600px;
-   
-    /* background-image: url(../img/nature.jpg); */
-
 }
 
-.details {
-    width: 200px;
+.online {
+    width: 450px;
     height: 400px;
     position: relative;
-    left: 1050px;
-    bottom: 700px;
+    bottom: 400px;
     
 }
 

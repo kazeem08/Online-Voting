@@ -89,6 +89,126 @@
       "password": "lovely",
       "isvoted": "true",
       "id": 9
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "ola",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-11",
+      "username": "voter1",
+      "password": "voter1",
+      "isvoted": "true",
+      "id": 10
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "kazeem",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-10",
+      "username": "kazeem089",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 11
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-18",
+      "username": "hello123",
+      "password": "h\\ello123",
+      "isvoted": "false",
+      "id": 12
+    },
+    {
+      "firstname": "lanre",
+      "middlename": "ola",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-19",
+      "username": "kazeem098",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 13
+    },
+    {
+      "firstname": "kaj",
+      "middlename": "ola",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-16",
+      "username": "kazeem088",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 14
+    },
+    {
+      "firstname": "lanre",
+      "middlename": "ola",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-17",
+      "username": "kazeem20",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 15
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "jimoh",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-23",
+      "username": "jimoh009",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 16
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-14",
+      "username": "kazeem081",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 17
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "ola",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-21",
+      "username": "jimoh001",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 18
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "ola",
+      "dateOfBirth": "2018-11-21",
+      "username": "kazeem01",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 19
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "ola",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-22",
+      "username": "kazeem080",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 20
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "ola",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-20",
+      "username": "kazeem42",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 21
     }
   ],
   "admin": [
@@ -107,7 +227,7 @@
       "dateOfBirth": "13/11/1968",
       "party": "APC",
       "state": "Katsina",
-      "votecount": "1",
+      "votecount": "5",
       "id": 1
     },
     {
@@ -117,18 +237,8 @@
       "dateOfBirth": "13/11/1961",
       "party": "PDP",
       "state": "Adamawa",
-      "votecount": "1",
+      "votecount": "3",
       "id": 2
-    },
-    {
-      "firstname": "solomon",
-      "middlename": "dare",
-      "lastname": "lawal",
-      "dateOfBirth": "13/11/2009",
-      "party": "PDP",
-      "state": "lagos",
-      "votecount": "0",
-      "id": 3
     }
   ],
   "voters": [
