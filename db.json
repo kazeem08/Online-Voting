@@ -209,6 +209,46 @@
       "password": "lovely",
       "isvoted": "true",
       "id": 21
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "jimoh",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-15",
+      "username": "kazeem82",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 22
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "ola",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-23",
+      "username": "jimoh006",
+      "password": "lovely",
+      "isvoted": "false",
+      "id": 23
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "lanre",
+      "dateOfBirth": "2018-11-15",
+      "username": "kay",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 24
+    },
+    {
+      "firstname": "kazeem",
+      "middlename": "lanre",
+      "lastname": "jimoh",
+      "dateOfBirth": "2018-11-14",
+      "username": "kayzed",
+      "password": "lovely",
+      "isvoted": "true",
+      "id": 25
     }
   ],
   "admin": [
@@ -227,7 +267,7 @@
       "dateOfBirth": "13/11/1968",
       "party": "APC",
       "state": "Katsina",
-      "votecount": "5",
+      "votecount": "8",
       "id": 1
     },
     {
@@ -237,7 +277,7 @@
       "dateOfBirth": "13/11/1961",
       "party": "PDP",
       "state": "Adamawa",
-      "votecount": "3",
+      "votecount": "5",
       "id": 2
     }
   ],

@@ -49,48 +49,57 @@
     </div>
 
     <div class="container">
-
-        <h2>Register</h2>
-        <form id="register-form" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label>FirstName</label>
-                <input class="form-control" id="fname" placeholder="Enter your firstname" required>
+        <div class="row">
+            <div class="col-md-4">
+                    <h2>Register</h2>
+                    <form id="register-form" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input class="form-control" id="fname" placeholder="Enter your firstname" required>
+            
+                        </div>
+            
+                        <div class="form-group">
+                            <label>Middle Name</label>
+                            <input class="form-control" id="mname" placeholder="Enter your Middlename" required>
+            
+                        </div>
+            
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input class="form-control" id="lname" placeholder="Enter your Lastname" required>
+            
+                        </div>
+            
+                        <div class="form-group">
+                            <label>Date of Birth</label>
+                            <input type="date" id="dateofbirth" class="form-control" required>
+            
+                        </div>
+            
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input class="form-control" id="uname" placeholder="Enter your Username" required>
+            
+                        </div>
+            
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" id="pword" class="form-control" placeholder="Enter your Password" required>
+            
+                        </div>
+            
+                        <button type="button" id="register" class="btn btn-primary">Submit</button>
+            
+                    </form>
+            
 
             </div>
 
-            <div class="form-group">
-                <label>MiddleName</label>
-                <input class="form-control" id="mname" placeholder="Enter your Middlename" required>
+                
 
-            </div>
+        </div>
 
-            <div class="form-group">
-                <label>LastName</label>
-                <input class="form-control" id="lname" placeholder="Enter your Lastname" required>
-
-            </div>
-
-            <div class="form-group">
-                <label>Date of Birth</label>
-                <input type="date" id="dateofbirth" class="form-control" required>
-
-            </div>
-
-            <div class="form-group">
-                <label>Username</label>
-                <input class="form-control" id="uname" placeholder="Enter your Username" required>
-
-            </div>
-
-            <div class="form-group">
-                <label>Password</label>
-                <input type="password" id="pword" class="form-control" placeholder="Enter your Password" required>
-
-            </div>
-
-            <button type="button" id="register" class="btn btn-primary">Submit</button>
-
-        </form>
 
 
     </div>

@@ -34,7 +34,7 @@ $("document").ready(function () {
                     "<button class='delete' id='" + i.id + "'>" +
                     "Del" +
                     "</button>" +
-                    "<td>" +
+                    "</td>" +
                     "<td>" +
                     "<button data-toggle='modal' data-target='#exampleModal' class='update' id='" + i.id + "'>" +
                     "Update" +
@@ -109,7 +109,7 @@ $("document").ready(function () {
         $.ajax({
             type: 'GET',
             url: 'http://localhost:3000/users',
-            success: function (data) {
+            success: function(data) {
                 var j = 0;
                 for (let i of data) {
                     if (i.username == username) {
@@ -137,8 +137,7 @@ $("document").ready(function () {
                             data: user,
                             success: function () {
                                 alert('welcome');
-                                window.location.replace('./votingpage.html');
-                                
+                                window.location.replace('./Login.html');
                                 
                             }
                         });
@@ -176,6 +175,8 @@ $("document").ready(function () {
                     for (let i of data) {
                         if (i.username == userlogin && i.password == userpass) {
                             alert('welcome');
+                           
+                            
                             j = 0;
 
                             var user = i.username;
@@ -188,6 +189,7 @@ $("document").ready(function () {
                             var pass = i.password;
                             // $.cookie("username", i.username);
                             // $.cookie("id", i.id);
+                            
                             localStorage.setItem("firstname", fname);
                             localStorage.setItem("middlename", mname);
                             localStorage.setItem("lastname", lname);
@@ -196,18 +198,22 @@ $("document").ready(function () {
                             localStorage.setItem("id", userid);
                             localStorage.setItem("isvoted", isvoted);
                             localStorage.setItem("password", pass);
-
-
                             
-                            console.log(localStorage);
+                            //console.log(localStorage);
 
                             window.location.replace('./votingpage.html');
                         }
                     }
 
                     if (j == 1) {
-                        alert('username/password incorrect');
+                        // swal({
+                        //     title: "Username/Password",
+                        //     text: "Incorrect",
+                        //     timer: 2000
 
+                        // });
+
+                        alert('username/password incorrect');
                     }
 
                 },
@@ -234,11 +240,11 @@ $("document").ready(function () {
         var passvote = localStorage.getItem("password");
         var voteid = localStorage.getItem("id").toString();
 
-        console.log(voteid);
-        
+        //console.log(voteid);
 
         if(isvotedvote == "true"){
             alert("sorry, you have already voted");
+            
             window.location.replace('./index.html');
 
         }
@@ -267,11 +273,9 @@ $("document").ready(function () {
                             state: data[0].state,
                             votecount: count
                             
-                            
                         },
                         success: function () {
                             alert("Thank you for voting");
-
                            
                             $.ajax({
                                 
@@ -296,13 +300,9 @@ $("document").ready(function () {
                                     alert('error');
                                     console.log(value);
 
-
                                 }
 
                             });
-                        
-                       
-    
     
                         }
                     
@@ -311,7 +311,6 @@ $("document").ready(function () {
                 }
     
             })
-        
 
         }
        
